@@ -1,4 +1,4 @@
-#Run command
+**#Run this command to execute the playbook.**
 
 ansible-playbook -i inventory.ini kubectl_run.yml
 
