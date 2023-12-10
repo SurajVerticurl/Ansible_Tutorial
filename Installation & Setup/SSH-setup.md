@@ -58,7 +58,7 @@ password : `surajk`
             Copy it to the remote ~/.ssh/authorized_keys
             [cat ~/.ssh/id_rsa.pub | ssh surajk@master-node 'cat >> ~/.ssh/authorized_keys']
 
-## Reference
+ - Reference
 
 	https://community.cloudera.com/t5/Support-Questions/how-to-create-password-less-ssh-between-two-AWS-EC2/td-p/109442
 	https://www.cyberciti.biz/faq/how-to-disable-ssh-password-login-on-linux/
