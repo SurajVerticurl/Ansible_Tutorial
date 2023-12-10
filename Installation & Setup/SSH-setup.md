@@ -1,13 +1,13 @@
 # Setup SSH 
 
-- add a user (on BOTH)
+- Add a user (on BOTH)
 
         useradd -m -s /bin/bash surajk
         passwd surajk
 
 password : `surajk`
 
-- adding the user to Sudoers List 
+- Adding the user to Sudoers List 
 
         visudo
         surajk  ALL=(ALL)        NOPASSWD:ALL
@@ -44,7 +44,7 @@ password : `surajk`
   
         sudo systemctl restart sshd.service
 
-- generate and Copy SSH key to other nodes (on MASTER)
+- Generate and Copy SSH key to other nodes (on MASTER)
 
         sudo su - surajk
         ssh-keygen -t rsa
