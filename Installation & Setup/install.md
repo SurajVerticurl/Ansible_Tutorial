@@ -16,3 +16,6 @@
         ansible --version
 
 
+### Reference
+
+- https://www.toptechskills.com/ansible-tutorials-courses/how-to-install-ansible-ubuntu-linux-1804-bionic-tutorial/
