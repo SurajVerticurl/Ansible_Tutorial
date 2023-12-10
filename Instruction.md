@@ -3,16 +3,16 @@
 ansible-playbook -i inventory.ini kubectl_run.yml
 
 
-#To login without  password run the ssh and ansible as "ansadmin"
+#To login without  password run the ssh and ansible as "surajk"[user created with ssh setup]
 
 
-# run this as Root to copy the .kube/config
+# Run this as Root to copy the .kube/config
+
 sudo su
-cp -r $HOME/.kube /home/ansadmin
+cp -r $HOME/.kube /home/surajk
+chown surajk:surajk /home/surajk/.kube/config
 
-chown ansadmin:ansadmin /home/ansadmin/.kube/config
 
-
-# insall plugin for confirmation
+# Insall plugin for confirmation
 
 ansible-galaxy collection install community.general
