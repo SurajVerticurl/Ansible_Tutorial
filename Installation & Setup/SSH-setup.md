@@ -23,7 +23,7 @@ password : `surajk`
         touch ~/.ssh/authorized_keys
 
         chmod -R 700 ~/.ssh
-	      chmod 600 ~/.ssh/*
+        chmod 600 ~/.ssh/*
 
 - Permitting Passwdless Login on WORKER-NODE
 
